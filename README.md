@@ -26,7 +26,7 @@ Includes:
 - Battery charging characteristics  
 - Final L, C, and η values for multiple duty cycles  
 
-## 🎯 Focus Area
+## Focus Area
 All projects are centered on **Power Electronics**, combining:
 - MATLAB/Simulink simulations  
 - Hardware experiment support  
