@@ -89,38 +89,43 @@ All diagrams used in this experiment are available in:
 Given switching frequency:  
 **fₛ = 2 kHz**
 
-### **Inductor (L) Calculation**
+## Inductor (L) Calculation
 
-#### For 40% Duty Cycle:
+### **For 40% Duty Cycle**
 \[
 L = \frac{D(V_s - V_b)}{\Delta I \cdot f_s}
 \]
 \[
-L = \frac{40/100 \times (30-6)}{0.2 \times 2000} = 120 \times 10^{-3} \, H
+L = \frac{40/100 \times (30 - 6)}{0.2 \times 2000} = 120 \times 10^{-3} \, H
 \]
 
-#### For 50% Duty Cycle:
+### **For 50% Duty Cycle**
 \[
-L = \frac{50/100 \times (30-6.3)}{0.2 \times 0.038 \times 2000}
+L = \frac{50/100 \times (30 - 6.3)}{0.2 \times 0.038 \times 2000}
 = 779 \times 10^{-3} \, H
 \]
 
-### **Capacitance (C) Calculation**
+---
+
+## Capacitance (C) Calculation
 \[
 C = \frac{\Delta I}{8 f_s \Delta V_b}
 \]
-Example value:  
+
+Example:
 \[
-C = 3.76 F
+C = 3.76 \, F
 \]
 
-### **Efficiency (η) Calculation**
+---
+
+## Efficiency (η) Calculation
 \[
 \eta = \frac{V_b I_b}{V_s I_s} \times 100
 \]
 
-- For 40% duty cycle → **4.52%**  
-- For 50% duty cycle → **7.38%**
+- **For 40% duty cycle → 4.52%**  
+- **For 50% duty cycle → 7.38%**
 
 ---
 
