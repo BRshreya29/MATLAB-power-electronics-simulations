@@ -74,7 +74,7 @@ T_f = T_2 - T_1 = 7 - (-3) = 10 \, mu s
 ## Files in This Folder
 - `/MATLAB_Simulation/` – Simulink files
 - `/Circuit_Images/` – Circuit diagrams referenced
-- `/README.md/` – Report of experiment performed in power elecronics lab course
+- `/README.md/` – Report of experiment performed in power electronics lab course
 
 ---
 
