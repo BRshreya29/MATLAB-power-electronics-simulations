@@ -127,5 +127,5 @@ Given switching frequency:
 
 ---
 
-## 📎 Note  
+##  Note  
 This experiment provides both simulation and hardware insight into EV battery charging systems.
