@@ -36,7 +36,8 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 ---
 
 ## Circuit Diagrams Included
-- Simplified equivalent circuit of IGBT - ![IGBT Schematic Diagram](circuit_images/IGBT_schematic_diagram.png)
+- Simplified equivalent circuit of IGBT - 
+![IGBT Schematic Diagram](circuit_images/IGBT_schematic_diagram.png)
 - TLP250 isolation and gate-driving circuit - ![TLP250 Isolation and Gate Driver Circuit](circuit_images/TLP_250_circuit.png)
 - Pulse Firing circuit - ![Pulse Firing Circuit](circuit_images/Firing_circuit_diagram.png)
 
@@ -52,10 +53,14 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 
 ## Calculations
 - **Rise Time (Tr)**  
-  \( T_r = T_2 - T_1 = 81.23 - 66.88 = 14.35 \ \mu s \)
+\[
+T_r = T_2 - T_1 = 81.23 - 66.88 = 14.35 \, \mu s
+\]
 
 - **Fall Time (Tf)**  
-  \( T_f = T_2 - T_1 = 7 - (-3) = 10 \ \mu s \)
+\[
+T_f = T_2 - T_1 = 7 - (-3) = 10 \, \mu s
+\]
 
 ---
 
