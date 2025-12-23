@@ -54,12 +54,12 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 ## Calculations
 - **Rise Time (Tr)**  
 \[
-T_r = T_2 - T_1 = 81.23 - 66.88 = 14.35 \, \mu s
+T_r = T_2 - T_1 = 81.23 - 66.88 = 14.35 \, mu s
 \]
 
 - **Fall Time (Tf)**  
 \[
-T_f = T_2 - T_1 = 7 - (-3) = 10 \, \mu s
+T_f = T_2 - T_1 = 7 - (-3) = 10 \, mu s
 \]
 
 ---
