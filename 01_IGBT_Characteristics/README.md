@@ -36,14 +36,13 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 ---
 
 ## Circuit Diagrams Included
-- Simplified equivalent circuit of IGBT  
-- IGBT transient characteristics test circuit  
-- TLP250 isolation and gate-driving circuit  
-- Full experimental test setup block diagram  
+- Simplified equivalent circuit of IGBT - ![IGBT Schematic Diagram](circuit_images/IGBT_schematic_diagram.png)
+- TLP250 isolation and gate-driving circuit - ![TLP250 Isolation and Gate Driver Circuit](circuit_images/TLP_250_circuit.png)
+- Pulse Firing circuit - ![Pulse Firing Circuit](circuit_images/Firing_circuit_diagram.png)
 
 ---
 
-## 📊 Observations (Sample Table)
+## Observation Table
 
 | Freq (kHz) | V<sub>G</sub> (V) | T<sub>r</sub> (µs) | T<sub>f</sub> (µs) | V<sub>CE</sub> (V) | I<sub>C</sub> (A) | V<sub>F</sub> (V) | I<sub>F</sub> (mA) |
 |-----------|-------------------|---------------------|---------------------|---------------------|-------------------|-------------------|---------------------|
@@ -51,7 +50,7 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 
 ---
 
-## 🧮 Calculations
+## Calculations
 - **Rise Time (Tr)**  
   \( T_r = T_2 - T_1 = 81.23 - 66.88 = 14.35 \ \mu s \)
 
@@ -60,27 +59,19 @@ In forward operation, the IGBT behaves similar to a logic-level BJT but is contr
 
 ---
 
-## ✅ Results
+## Results
 1. Characteristics of the given IGBT were obtained successfully.  
 2. **Rise Time:** 14.35 µs  
 3. **Fall Time:** 10 µs  
 
 ---
 
-## ⚠️ Precautions
-- Show the circuit diagram to the instructor before acquiring components.  
-- Verify all wiring connections before powering the circuit.  
-- Wear appropriate safety footwear in the laboratory.
+## Files in This Folder
+- `/MATLAB_Simulation/` – Simulink files
+- `/Circuit_Images/` – Circuit diagrams referenced
+- `/README.md/` – Report of experiment performed in power elecronics lab course
 
 ---
 
-## 📂 Files in This Folder
-- `/Hardware_Images/` – Photos of hand-written observations & circuit diagrams  
-- `/MATLAB_Simulation/` – Simulink files (if applicable)  
-- `/Plots/` – Switching waveforms and extracted rise/fall points  
-
----
-
-## 📎 Notes
-This experiment supports the power electronics repository by providing practical insight into real-world switching behaviour of IGBTs, complementing MATLAB-based analysis.
-
+## Notes
+This experiment providies practical insight into real-world switching behaviour of IGBTs, complementing MATLAB-based analysis.
